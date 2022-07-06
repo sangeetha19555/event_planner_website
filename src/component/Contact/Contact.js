@@ -41,7 +41,7 @@ const Contact = () => {
           <hr />
           <div>
             <p className="contact_text">
-              Contact us to make your event more colorful.
+              Contact us to make your event more colourful.
             </p>
           </div>
           <p>

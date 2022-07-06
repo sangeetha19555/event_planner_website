@@ -32,8 +32,11 @@ const ReceptionPage = () => {
               className="gallery_container-imagecard"
               key={id}
               onClick={() => getImage(el.img_url)}
+              data-aos="zoom-in"
+              data-aos-offset="0"
+              data-aos-easing="ease-in-sine"
             >
-              <img src={el.img_url} alt="birthday_image" />
+              <img src={el.img_url} alt="reception_image" />
             </div>
           ))}
         </div>

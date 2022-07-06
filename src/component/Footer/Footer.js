@@ -56,7 +56,7 @@ const Footer = () => {
                   className="our_services_icon"
                 />
 
-                <a href="/wedding">Wedding Decoration</a>
+                <Link to="/wedding">Wedding Decoration</Link>
               </li>
               <li>
                 <img

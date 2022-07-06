@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import "./galleryStyle.css";
-import { reception_data } from "./PhotoDatas";
+import { engagement_data } from "./PhotoDatas";
 
 const EngagementPage = () => {
   const [model, setModel] = useState(false);
@@ -27,13 +27,16 @@ const EngagementPage = () => {
       </div>
       <section className="gallery_section">
         <div className="gallery_container_box">
-          {reception_data.map((el, id) => (
+          {engagement_data.map((el, id) => (
             <div
               className="gallery_container-imagecard"
               key={id}
               onClick={() => getImage(el.img_url)}
+              data-aos="zoom-in"
+              data-aos-offset="0"
+              data-aos-easing="ease-in-sine"
             >
-              <img src={el.img_url} alt="birthday_image" />
+              <img src={el.img_url} alt="engagement_image" />
             </div>
           ))}
         </div>

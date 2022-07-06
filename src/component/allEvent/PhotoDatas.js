@@ -43,10 +43,21 @@ export const reception_data = [
 export const wedding_data = [
   { img_url: "images/wed_img1.jpeg" },
   { img_url: "images/wed_img3.jpeg" },
-  { img_url: "images/wed_img4.jpeg" },
+  { img_url: "images/wed_img4.png" },
   { img_url: "images/wed_img5.jpeg" },
   { img_url: "images/wed_img6.jpeg" },
   { img_url: "images/wed_img7.png" },
   { img_url: "images/rec_img20.jpeg" },
   { img_url: "images/wed_img2.jpeg" },
+];
+export const engagement_data = [
+  { img_url: "images/rec_img7.jpeg" },
+  { img_url: "images/rec_img11.jpeg" },
+  { img_url: "images/rec_img15.jpeg" },
+  { img_url: "images/rec_img14.jpeg" },
+  { img_url: "images/rec_img16.jpeg" },
+  { img_url: "images/rec_img22.jpeg" },
+  { img_url: "images/rec_img23.jpeg" },
+  { img_url: "images/rec_img2.jpeg" },
+  { img_url: "images/rec_img3.jpeg" },
 ];
