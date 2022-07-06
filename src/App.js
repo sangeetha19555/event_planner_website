@@ -1,6 +1,8 @@
 import { useEffect } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { useLayoutEffect } from "react";
 import "./App.css";
+
 // animation
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
@@ -17,23 +19,32 @@ import EngagementPage from "./component/allEvent/EngagementPage";
 import BabyShowerPage from "./component/allEvent/BabyShowerPage";
 
 function App() {
+  const Wrapper = ({ children }) => {
+    const location = useLocation();
+    useLayoutEffect(() => {
+      document.documentElement.scrollTo(0, 0);
+    }, [location.pathname]);
+    return children;
+  };
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route exact path="/" element={<HomePage />} />
-        <Route exact path="/reception" element={<ReceptionPage />} />
-        <Route exact path="/birthday" element={<BirthdayPage />} />
-        <Route exact path="/wedding" element={<WeddingPage />} />
-        <Route exact path="/engagement" element={<EngagementPage />} />
-        <Route exact path="/babyshower" element={<BabyShowerPage />} />
-        <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/service" element={<Service />} />
-      </Routes>
-      <Footer />
+      <Wrapper>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<HomePage />} />
+          <Route path="/reception" element={<ReceptionPage />} />
+          <Route path="/birthday" element={<BirthdayPage />} />
+          <Route path="/wedding" element={<WeddingPage />} />
+          <Route path="/engagement" element={<EngagementPage />} />
+          <Route path="/babyshower" element={<BabyShowerPage />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/service" element={<Service />} />
+        </Routes>
+        <Footer />
+      </Wrapper>
     </>
   );
 }
