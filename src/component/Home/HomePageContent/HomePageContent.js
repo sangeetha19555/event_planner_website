@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./HomePageContent.css";
 
@@ -44,36 +45,37 @@ const HomePageContent = () => {
         <div className="about-service_container">
           <div className="service_card_conatiner">
             <div className="service_card__image">
-              <a href="/wedding">
+              <Link to="/wedding">
                 <img src="images/wedding.png" alt="" width="300px" />
-              </a>
+              </Link>
             </div>
             <div className="service_card__text">
               <h3>
-                <a href="/wedding">Wedding</a>
+                <Link to="/wedding"> Wedding</Link>
+                {/* <a href="/wedding">Wedding</a> */}
               </h3>
             </div>
           </div>
           {/* card 2 */}
           <div className="service_card_conatiner">
             <div className="service_card__image">
-              <a href="/birthday">
+              <Link to="/birthday">
                 <img
                   src="images/birthday_image.png"
                   alt="birthday"
                   width="300px"
                 />
-              </a>
+              </Link>
             </div>
             <div className="service_card__text">
               <h3>
-                <a href="/birthday">Birthday</a>
+                <Link to="/birthday">Birthday</Link>
               </h3>
             </div>
           </div>
           {/* card 3 */}
           <div className="service_card_conatiner">
-            <a href="/reception">
+            <Link to="/reception">
               <div className="service_card__image setting_images">
                 <img
                   src="images/recepetion_back.png"
@@ -92,10 +94,10 @@ const HomePageContent = () => {
                   className="sideitems_image"
                 />
               </div>
-            </a>
+            </Link>
             <div className="service_card__text">
               <h3>
-                <a href="/reception">Reception</a>{" "}
+                <Link to="/reception">Reception</Link>{" "}
               </h3>
             </div>
           </div>

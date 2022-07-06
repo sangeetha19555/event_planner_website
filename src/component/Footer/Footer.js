@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -46,7 +47,7 @@ const Footer = () => {
                   alt=""
                   className="our_services_icon"
                 />
-                <a href="/birthday">Birthday Decoration</a>
+                <Link to="/birthday">Birthday Decoration</Link>
               </li>
               <li>
                 <img
@@ -63,7 +64,7 @@ const Footer = () => {
                   alt=""
                   className="our_services_icon"
                 />
-                <a href="/reception">Reception Decoration</a>
+                <Link to="/reception">Reception Decoration</Link>
               </li>
               <li>
                 <img
@@ -71,7 +72,7 @@ const Footer = () => {
                   alt=""
                   className="our_services_icon"
                 />
-                <a href="/">Baby shower decoration</a>
+                <Link to="/">Baby shower decoration</Link>
               </li>
               <li>
                 <img
@@ -79,7 +80,7 @@ const Footer = () => {
                   alt=""
                   className="our_services_icon"
                 />
-                <a href="/">surprise Party Decoration</a>
+                <Link to="/">surprise Party Decoration</Link>
               </li>
             </ul>
           </div>
@@ -90,7 +91,7 @@ const Footer = () => {
           <p>
             © 2022. {"   "}
             <span>
-              <a href="/">Mr &amp; Mrs Event Planner</a>
+              <Link to="/">Mr &amp; Mrs Event Planner</Link>
             </span>
             . All rights reserved.
           </p>
