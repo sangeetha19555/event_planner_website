@@ -71,6 +71,9 @@
     width: 630px;
     height: 400px;
   }
+  .gallery_container-imagecard img:hover {
+    filter: opacity(0.9);
+  }
 }
 @media (max-width: 769px) {
   .gallery_section {
