@@ -1,0 +1,215 @@
+.gallery_layout {
+  margin-top: 30px;
+}
+.gallery_section {
+  margin: 70px 100px;
+  padding: 0px 0px 50px;
+}
+.gallery_container_box {
+  display: grid;
+  /* grid-template-columns: repeat(3, 354px); */
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.gallery_container-imagecard img {
+  /* width: 350px;
+  height: 260px; */
+  width: 420px;
+  height: 310px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 0px 14px 4px rgba(145, 145, 145, 0.4);
+  -moz-object-fit: cover;
+  -webkit-object-fit: cover;
+  -o-object-fit: cover;
+  cursor: pointer;
+}
+.gallery_container-imagecard img:hover {
+  filter: opacity(0.7);
+}
+
+@media (max-width: 1240px) {
+  /* .gallery_container_box {
+    column-gap: 10px;
+    row-gap: 50px;
+  }
+  .gallery_section {
+    margin: 70px 20px;
+  } */
+  /* .gallery_container-imagecard img {
+    width: 300px;
+    height: 221px;
+  } */
+  .gallery_container_box {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 39px;
+  }
+  .gallery_container-imagecard img {
+    width: 430px;
+    height: 322px;
+  }
+  .gallery_section {
+    margin: 70px 100px;
+    padding: 0px 0px 50px;
+  }
+}
+@media (max-width: 991px) {
+  .gallery_container_box {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 39px;
+  }
+  .gallery_section {
+    margin: 40px 20px;
+  }
+  .gallery_container-imagecard img {
+    width: 630px;
+    height: 400px;
+  }
+}
+@media (max-width: 769px) {
+  .gallery_section {
+    margin: 30px 20px;
+  }
+  .gallery_container-imagecard img {
+    width: 504px;
+    height: 300px;
+    border-radius: 8px;
+  }
+  .gallery_container_box {
+    row-gap: 22px;
+  }
+  /* .gallery_container-imagecard img {
+    width: 360px;
+    height: 272px;
+    border-radius: 8px;
+  } */
+}
+@media (max-width: 596px) {
+  .gallery_container-imagecard img {
+    width: 366px;
+    height: 245px;
+  }
+}
+@media (max-width: 400px) {
+  .gallery_container-imagecard img {
+    width: 337px;
+    height: 250px;
+  }
+}
+@media (max-width: 350px) {
+  .gallery_container-imagecard img {
+    width: 288px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 330px) {
+  .gallery_container-imagecard img {
+    width: 260px;
+    height: 195px;
+  }
+}
+
+/* new styles */
+/* .gallery_container {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0 100px;
+  margin-top: 100px;
+} */
+/* .pics_container {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.pics_container:hover {
+  filter: opacity(0.7);
+}
+.pics_container img {
+  width: 100%;
+  border-radius: 6px;
+} */
+/* Model image style */
+.model {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  transition: opacity 0.4s ease, visibility 0.4s ease,
+    transform 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+}
+.model.open {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+.model .tempImgsrc {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 70px 0 50px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.model.open .close_icon {
+  position: fixed;
+  top: 60px;
+  right: 13px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgba(3, 132, 126, 0.78);
+  border-radius: 30px;
+  font-size: 30px;
+  padding: 5px;
+  font-weight: 900;
+}
+/* Model image style  Ends*/
+
+@media (max-width: 991px) {
+  .model .tempImgsrc {
+    max-width: 83%;
+    padding: 0px;
+  }
+  .model.open .close_icon {
+    font-size: 26px;
+  }
+}
+@media (max-width: 769px) {
+  .model.open .close_icon {
+    font-size: 24px;
+  }
+  .model.open .close_icon {
+    top: 93px;
+    right: 10px;
+  }
+}
+@media (max-width: 569px) {
+  .model .tempImgsrc {
+    max-width: 95%;
+  }
+}

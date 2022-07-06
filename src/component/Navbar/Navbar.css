@@ -1,0 +1,172 @@
+header {
+  /* position: fixed; */
+  /* top: 0; */
+  /* bottom: 0; */
+  width: 100%;
+  /* z-index: 2; */
+}
+.contact_info {
+  /* background-color: #111; */
+  /* background-color: #2c2b2b;
+  background-color: #181c28;
+  background-color: rgb(26, 149, 198); */
+  background-color: rgb(20 157 175);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.contact_info p {
+  margin: 0 10px 0 10px;
+  font-weight: 700;
+}
+.contact_info p img {
+  margin: 0 10px 0 10px;
+  width: 20px;
+}
+.logo_image {
+  height: 50px;
+}
+.navbar_conatiner {
+  /* z-index: 2; */
+  margin-top: 44px;
+  /* margin-top: 55px; */
+  background-color: #fff;
+  background-image: linear-gradient(
+    30deg,
+    hsl(0deg 0% 100%) 13%,
+    hsl(0deg 0% 100%) 35%,
+    hsl(0deg 0% 100%) 43%,
+    hsl(0deg 0% 100%) 47%,
+    hsl(0deg 0% 100%) 50%,
+    hsl(0deg 0% 100%) 51%,
+    hsl(0deg 0% 100%) 52%,
+    hsl(0deg 0% 100%) 53%,
+    hsl(0deg 0% 100%) 53%,
+    hsl(0deg 0% 100%) 53%,
+    hsl(0deg 0% 100%) 53%,
+    hsl(0deg 0% 100%) 53%,
+    hsl(0deg 0% 100%) 53%,
+    hsl(0deg 0% 100%) 53%,
+    hsl(0deg 0% 100%) 53%,
+    hsl(187deg 100% 97%) 54%,
+    hsl(187deg 100% 94%) 55%,
+    hsl(187deg 100% 90%) 57%,
+    hsl(187deg 97% 87%) 60%,
+    hsl(187deg 98% 83%) 65%,
+    hsl(187deg 98% 80%) 73%,
+    hsl(187deg 98% 77%) 100%
+  );
+}
+.nav-item {
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.nav-link {
+  padding: 10px 20px;
+  font-weight: 800;
+}
+.nav-item:hover {
+  background-color: #02d5e4a7;
+  /* background-color: rgba(255, 35, 35, 0.795); */
+}
+.dropdown-menu {
+  background-color: #fffffffe;
+}
+
+/* .nav-item:hover .nav-link:focus,
+.nav-item:hover .nav-link:hover {
+  color: yellow;
+  color: rgb(255, 8, 0);
+  background-color: #03bbc8c0;
+} */
+.dropdown-item {
+  font-weight: 600;
+}
+.dropdown-item:hover,
+.dropdown-item:focus {
+  /* color: yellow; */
+  /* background-color: #0b0b0bad; */
+  background-color: #03bbc8a4;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.801);
+}
+@media (max-width: 991px) {
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    flex-direction: row-reverse;
+  }
+
+  .navbar-nav {
+    padding: 20px;
+    /* height: 90vh; */
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(https://icon-library.com/images/menu-icon-mobile/menu-icon-mobile-18.jpg);
+  }
+
+  .nav-item {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.1s;
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+  .nav-item:hover .nav-link:hover {
+    color: rgba(28, 28, 27, 0.898);
+  }
+  .nav-item:hover {
+    background-color: transparent;
+    color: yellow;
+  }
+  .dropdown-menu {
+    background-color: #ffffffa7;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+}
+@media (max-width: 769px) {
+  .navbar_conatiner {
+    margin-top: 64px;
+    /* margin-top: 76px; */
+  }
+  .contact_info {
+    flex-direction: column;
+  }
+  .contact_info p:nth-child(2) {
+    /* color: red; */
+    font-size: 15px;
+  }
+}
+@media (max-width: 567px) {
+  .contact_info p {
+    margin: 0 5px 0 5px;
+    font-weight: 700;
+  }
+  .contact_info p img {
+    margin: 0 10px 0 5px;
+  }
+  .contact_info p:nth-child(2) {
+    /* color: red; */
+    font-size: 14px;
+  }
+  .contact_info p:nth-child(2) img {
+    margin-top: -2px;
+  }
+  .logo_image {
+    height: 45px;
+  }
+}

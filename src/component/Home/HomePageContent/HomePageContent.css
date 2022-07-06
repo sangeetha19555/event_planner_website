@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Fredericka+the+Great&family=Mali:wght@400;500;600;700&family=Rubik+Puddles&family=Rye&display=swap");
+/* font-family: 'Audiowide', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Rye', cursive; */
+/* :root {
+  --mainColor: #29335c;
+  --mainColorLight: #5767aa;
+  --redColor: rgba(209, 47, 47, 0.85);
+  --blueColor: rgb(26, 149, 198);
+  --textColor: rgba(82, 82, 82, 0.788);
+} */
+.about-content_section {
+  margin: 70px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-content_container {
+  text-align: center;
+}
+.about-content_section .god_image {
+  width: 70px;
+  opacity: 0.7;
+}
+.about-content_container h1 {
+  font-family: "Mali", cursive;
+  color: rgba(209, 47, 47, 0.85);
+  font-weight: 700;
+}
+.about-content_container h4 {
+  font-size: 20px;
+  font-family: "Mali", cursive;
+  color: rgba(20, 20, 20, 0.844);
+}
+.logo_title1 {
+  color: rgb(26, 149, 198);
+  font-size: 50px;
+  font-family: "Mali", cursive;
+}
+.logo_title2 {
+  font-size: 30px;
+  color: rgb(9, 9, 9);
+}
+.about-content_container p {
+  font-size: 19px;
+  color: rgba(82, 82, 82, 0.788);
+  margin: 0;
+  font-weight: 400;
+}
+
+.about-content_container div p {
+  line-height: 36px;
+  padding: 0 300px;
+}
+/* services  style*/
+.text-title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 30px;
+}
+.text-title_container h1 {
+  font-size: 35px;
+  font-family: "Mali", cursive;
+  color: rgba(209, 47, 47, 0.85);
+  font-weight: 700;
+  position: relative;
+}
+
+.text-title_container h1::after {
+  content: "";
+  position: absolute;
+  right: -110px;
+  top: 25px;
+  width: 100px;
+  height: 5px;
+  background-color: rgb(26, 149, 198);
+}
+.text-title_container h1::before {
+  content: "";
+  position: absolute;
+  left: -110px;
+  top: 25px;
+  width: 100px;
+  height: 5px;
+  background-color: rgb(26, 149, 198);
+}
+.text-title_container h3 {
+  font-size: 35px;
+  font-family: "Mali", cursive;
+  color: rgba(209, 47, 47, 0.85);
+  font-weight: 700;
+  position: relative;
+}
+.text-title_container h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 50px;
+  left: 120px;
+  width: 150px;
+  height: 4px;
+  background-color: rgb(26, 149, 198);
+}
+.text-title_container h2 {
+  font-size: 35px;
+  font-family: "Mali", cursive;
+  color: rgba(209, 47, 47, 0.85);
+  font-weight: 700;
+  position: relative;
+}
+.text-title_container h2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 50px;
+  left: 80px;
+  width: 120px;
+  height: 4px;
+  background-color: rgb(26, 149, 198);
+}
+/* services card style*/
+.about-service_section {
+  margin-bottom: 10px;
+}
+.about-service_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding: 30px;
+  gap: 20px;
+}
+.service_card__image {
+  /* inital width height ="300px" */
+  width: 310px;
+  height: 310px;
+  box-shadow: inset -1px 2px 20px 5px rgb(186 186 186 / 72%);
+  -webkit-box-shadow: inset -1px 2px 20px 5px rgb(186 186 186 / 72%);
+  -webkit-box-shadow: inset -1px 2px 20px 5px rgb(186 186 186 / 72%);
+  -moz-box-shadow: inset -1px 2px 20px 5px rgb(186 186 186 / 72%);
+  background-color: rgba(255, 255, 255, 0.393);
+  border-radius: 10px;
+}
+
+.service_card__text h3 {
+  text-align: center;
+
+  font-weight: 700;
+  margin-top: 20px;
+  letter-spacing: 4px;
+  font-family: "Mali", cursive;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.service_card__text h3 a {
+  color: rgb(4, 127, 176);
+  text-decoration: none;
+}
+.service_card__text h3 a:hover {
+  color: #124117;
+}
+/* .service_card__text {
+ 
+} */
+.setting_images {
+  position: relative;
+}
+.green_color {
+  background-color: #124117;
+  height: 9px;
+  width: 66px;
+  position: absolute;
+  top: 125px;
+  left: 126px;
+}
+.back_decro_image {
+  position: absolute;
+  left: -4px;
+  top: 50px;
+  width: 320px;
+  height: 160px;
+}
+.person_image {
+  position: absolute;
+  top: 120px;
+  bottom: 0;
+  left: 110px;
+  width: 99px;
+  z-index: 1;
+}
+.sideitems_image {
+  position: absolute;
+  top: 110px;
+  left: 129px;
+  width: 60px;
+}
+/* services card style Ends*/
+/* services  Ends*/
+@media (max-width: 1240px) {
+  .about-content_container div p {
+    padding: 0 150px;
+  }
+}
+@media (max-width: 991px) {
+  .about-service_container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+  .about-content_container div p {
+    padding: 0 100px;
+  }
+}
+@media (max-width: 769px) {
+  .about-content_section {
+    margin: 60px 14px 60px;
+  }
+  .about-content_section .god_image {
+    width: 53px;
+    opacity: 0.8;
+  }
+  .about-content_container h1 {
+    font-size: 25px;
+  }
+  .logo_title1 {
+    font-size: 30px;
+  }
+  .logo_title2 {
+    font-size: 25px;
+  }
+  .text-title_container h1 {
+    font-size: 25px;
+  }
+  .text-title_container h3 {
+    font-size: 22px;
+  }
+
+  .text-title_container h1::after {
+    right: -57px;
+    top: 17px;
+    width: 49px;
+    height: 4px;
+  }
+  .text-title_container h1::before {
+    left: -57px;
+    top: 17px;
+    width: 49px;
+    height: 4px;
+  }
+  .text-title_container h3::before {
+    top: 38px;
+    left: 55px;
+    width: 118px;
+    height: 3px;
+  }
+
+  .about-content_container div p {
+    padding: 0 20px;
+  }
+  .text-title_container h2 {
+    font-size: 25px;
+  }
+  .text-title_container h2::before {
+    top: 37px;
+    left: 46px;
+    width: 105px;
+    height: 3px;
+  }
+}
+@media (max-width: 567px) {
+  .about-content_container div p {
+    padding: 0 10px;
+  }
+  .service_card__image {
+    width: 290px;
+    height: 302px;
+  }
+  .about-service_container h3 {
+    font-size: 25px;
+  }
+  .back_decro_image {
+    left: 0px;
+    top: 50px;
+    width: 290px;
+    height: 160px;
+  }
+  .green_color {
+    width: 60px;
+    top: 125px;
+    left: 112px;
+  }
+  .sideitems_image {
+    top: 110px;
+    left: 114px;
+  }
+  .person_image {
+    left: 93px;
+    width: 98px;
+  }
+  .text-title_container h2 {
+    font-size: 25px;
+  }
+  .text-title_container h2::before {
+    top: 37px;
+    left: 51px;
+    width: 91px;
+    height: 3px;
+  }
+}
