@@ -56,19 +56,9 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item dropdown">
-                {/* <Link
-                  className="nav-link dropdown-toggle"
-                  href="/service"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Services
-                </Link> */}
                 <a
+                  href="/"
                   className="nav-link dropdown-toggle"
-                  href="/service"
                   id="navbarDropdownMenuLink"
                   role="button"
                   data-toggle="dropdown"

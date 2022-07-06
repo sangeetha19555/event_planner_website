@@ -66,10 +66,12 @@ header {
 .nav-link {
   padding: 10px 20px;
   font-weight: 800;
+  outline: none;
 }
 .nav-item:hover {
   background-color: #02d5e4a7;
   /* background-color: rgba(255, 35, 35, 0.795); */
+  outline: none;
 }
 .dropdown-menu {
   background-color: #fffffffe;
@@ -88,10 +90,12 @@ header {
 .dropdown-item:focus {
   /* color: yellow; */
   /* background-color: #0b0b0bad; */
+  outline: none;
   background-color: #03bbc8a4;
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.801);
+  outline: none;
 }
 @media (max-width: 991px) {
   .navbar > .container,
