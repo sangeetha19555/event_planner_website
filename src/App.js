@@ -23,13 +23,13 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/reception" element={<ReceptionPage />} />
-        <Route path="/birthday" element={<BirthdayPage />} />
-        <Route path="/wedding" element={<WeddingPage />} />
-        <Route path="/engagement" element={<EngagementPage />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/service" element={<Service />} />
+        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/reception" element={<ReceptionPage />} />
+        <Route exact path="/birthday" element={<BirthdayPage />} />
+        <Route exact path="/wedding" element={<WeddingPage />} />
+        <Route exact path="/engagement" element={<EngagementPage />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/service" element={<Service />} />
       </Routes>
       <Footer />
     </>

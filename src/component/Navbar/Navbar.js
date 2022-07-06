@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Navbar/Navbar.css";
 const Navbar = () => {
   return (
@@ -46,11 +47,25 @@ const Navbar = () => {
           >
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/">
+                {/* <a className="nav-link" aria-current="page" href="/">
                   Home
-                </a>
+                </a> */}
+                <Link to="/" className="nav-link" aria-current="page">
+                  {" "}
+                  Home
+                </Link>
               </li>
               <li className="nav-item dropdown">
+                {/* <Link
+                  className="nav-link dropdown-toggle"
+                  href="/service"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </Link> */}
                 <a
                   className="nav-link dropdown-toggle"
                   href="/service"
@@ -67,32 +82,52 @@ const Navbar = () => {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <a className="dropdown-item" href="/reception">
+                    <Link to="/reception" className="dropdown-item">
+                      {" "}
                       Reception Decoration
-                    </a>
+                    </Link>
+                    {/* <a className="dropdown-item" href="/reception">
+                      Reception Decoration
+                    </a> */}
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/birthday">
+                    <Link to="/birthday" className="dropdown-item">
+                      {" "}
                       Birthday Decoration
-                    </a>
+                    </Link>
+                    {/* <a className="dropdown-item" href="/birthday">
+                      Birthday Decoration
+                    </a> */}
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/wedding">
+                    <Link to="/wedding" className="dropdown-item">
+                      {" "}
                       Wedding Decoration
-                    </a>
+                    </Link>
+                    {/* <a className="dropdown-item" href="/wedding">
+                      Wedding Decoration
+                    </a> */}
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/engagement">
+                    <Link to="/engagement" className="dropdown-item">
+                      {" "}
                       Engagement Decoration
-                    </a>
+                    </Link>
+                    {/* <a className="dropdown-item" href="/engagement">
+                      Engagement Decoration
+                    </a> */}
                   </li>
                   {/* <div className="dropdown-divider"></div> */}
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
+                <Link to="/contact" className="nav-link">
+                  {" "}
                   Contact
-                </a>
+                </Link>
+                {/* <a className="nav-link" href="/contact">
+                  Contact
+                </a> */}
               </li>
               {/* <li className="nav-item">
                   <a className="nav-link" href="/service">
