@@ -1,16 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Fredericka+the+Great&family=Mali:wght@400;500;600;700&family=Rubik+Puddles&family=Rye&display=swap");
-/* font-family: 'Audiowide', cursive;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Mali', cursive;
-font-family: 'Rubik Puddles', cursive;
-font-family: 'Rye', cursive; */
-/* :root {
-  --mainColor: #29335c;
-  --mainColorLight: #5767aa;
-  --redColor: rgba(209, 47, 47, 0.85);
-  --blueColor: rgb(26, 149, 198);
-  --textColor: rgba(82, 82, 82, 0.788);
-} */
+
 .about-content_section {
   margin: 70px 0px;
   display: flex;
@@ -162,9 +151,7 @@ font-family: 'Rye', cursive; */
 .service_card__text h3 a:hover {
   color: #124117;
 }
-/* .service_card__text {
- 
-} */
+
 .setting_images {
   position: relative;
 }

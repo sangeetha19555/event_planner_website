@@ -47,9 +47,6 @@ const Navbar = () => {
           >
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
-                {/* <a className="nav-link" aria-current="page" href="/">
-                  Home
-                </a> */}
                 <Link to="/" className="nav-link" aria-current="page">
                   {" "}
                   Home
@@ -76,27 +73,18 @@ const Navbar = () => {
                       {" "}
                       Reception Decoration
                     </Link>
-                    {/* <a className="dropdown-item" href="/reception">
-                      Reception Decoration
-                    </a> */}
                   </li>
                   <li>
                     <Link to="/birthday" className="dropdown-item">
                       {" "}
                       Birthday Decoration
                     </Link>
-                    {/* <a className="dropdown-item" href="/birthday">
-                      Birthday Decoration
-                    </a> */}
                   </li>
                   <li>
                     <Link to="/wedding" className="dropdown-item">
                       {" "}
                       Wedding Decoration
                     </Link>
-                    {/* <a className="dropdown-item" href="/wedding">
-                      Wedding Decoration
-                    </a> */}
                   </li>
                   <li>
                     <Link to="/engagement" className="dropdown-item">
@@ -117,83 +105,11 @@ const Navbar = () => {
                   {" "}
                   Contact
                 </Link>
-                {/* <a className="nav-link" href="/contact">
-                  Contact
-                </a> */}
               </li>
-              {/* <li className="nav-item">
-                  <a className="nav-link" href="/service">
-                    Service
-                  </a>
-                </li> */}
             </ul>
           </div>
         </div>
       </nav>
-
-      {/* <div></div> */}
-
-      {/* <nav class="navbar  navbar-expand-lg navbar-light bg-dark ">
-        <div class="container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="/">
-            Navbar
-          </a>
-          <div
-            class="collapse navbar-collapse ml-auto"
-            id="navbarTogglerDemo03"
-          >
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact">
-                  Contact
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/service">
-                  Service
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav> */}
-      {/* ========================================= */}
-      {/* <div className="loader-conatiner">
-        <img src="images/newloader3.gif" alt="loader" />
-      </div> */}
-
-      {/* <header>
-        <img src="images/try1.png" alt="" height="40px" width="" />
-        <nav ref={navRef}>
-          <a href="/"> Home</a>
-          <a href="/#"> About</a>
-          <a href="/#"> Home</a>
-          <a href="/#"> Home</a>
-          <a href="/#"> Home</a>
-          <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-            <FaTimes />
-          </button>
-        </nav>
-        <button className="nav-btn" onClick={showNavbar}>
-          <FaBars />
-        </button>
-      </header> */}
     </>
   );
 };

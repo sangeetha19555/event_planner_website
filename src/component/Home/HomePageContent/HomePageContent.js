@@ -24,9 +24,11 @@ const HomePageContent = () => {
           <div>
             <p className="about-content_container-text">
               We are one of the growing decorators in Pondicherry. We are
-              organizing full events such as Wedding Decoration, Reception
-              Decoration, Engagement Decoration, Birthday Decoration, Baby
-              shower Decoration and Surprise Party Decoration.
+              organizing full events such as wedding stage decorations,
+              reception stage decorations, engagement decoration, birthday
+              decoration, theme based balloon decoration, arch balloon
+              decorations, baby shower decoration, pathway decorations, and
+              surprise party decoration etc.
             </p>
           </div>
         </div>
@@ -52,7 +54,6 @@ const HomePageContent = () => {
             <div className="service_card__text">
               <h3>
                 <Link to="/wedding"> Wedding</Link>
-                {/* <a href="/wedding">Wedding</a> */}
               </h3>
             </div>
           </div>

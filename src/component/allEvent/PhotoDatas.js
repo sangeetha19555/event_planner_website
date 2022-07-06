@@ -63,4 +63,8 @@ export const engagement_data = [
   { img_url: "images/rec_img2.jpeg" },
   { img_url: "images/rec_img3.jpeg" },
 ];
-export const babyShower_data = [{ img_url: "images/baby_img1.jpeg" }];
+export const babyShower_data = [
+  { img_url: "images/baby_img1.jpeg" },
+  { img_url: "images/baby_img2.jpeg" },
+  { img_url: "images/baby_img3.jpeg" },
+];

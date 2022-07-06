@@ -20,7 +20,6 @@ const Contact = () => {
             alt="contact_image"
             data-aos="fade-left"
             data-aos-anchor="#example-anchor"
-            // data-aos-offset="500"
             data-aos-duration="800"
             data-aos-easing="ease-in-back"
           />

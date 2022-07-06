@@ -5,27 +5,9 @@
 .carousel-indicators li {
   background-color: #fff6;
 }
-/* .carousel-control-next,
-.carousel-control-prev {
-  z-index: 3;
-} */
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   width: 0rem;
   height: 0rem;
 }
 /* slider_container */
-
-/* about_container */
-
-/* about_container Ends */
-@media (max-width: 769px) {
-  /* .slider_conatiner {
-    margin-top: 121px;
-  } */
-}
-@media (max-width: 569px) {
-  /* .slider_conatiner {
-    margin-top: 126;
-  } */
-}

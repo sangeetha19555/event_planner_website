@@ -9,9 +9,10 @@ const Footer = () => {
           <div className="first footer-box1">
             <h3>About</h3>
             <p>
-              We the “Mr &amp; Mrs Event planner” Team will organize all types
-              of decorations for wedding, reception, birthday party, Baby shower
-              decoration and get together etc.,
+              We are providing wedding stage decorations, reception stage
+              decorations, engagement decorations, birthday decorations, theme
+              based balloon decoration, baby shower decoration, arch balloon
+              decorations, pathway decorations, get together etc.
             </p>
           </div>
           <div className="first footer-box2">
@@ -32,7 +33,6 @@ const Footer = () => {
                   alt="phone_icon"
                   className="footer_phone_icon"
                 />
-
                 <a href="tel:9443535850">+91 9443535850</a>
               </li>
             </ul>
@@ -89,16 +89,16 @@ const Footer = () => {
       <div className="copyrightText">
         <div className="copyrightText_companyName">
           <p>
-            © 2022. {"   "}
+            © 2022 {"   "}
             <span>
               <Link to="/">Mr &amp; Mrs Event Planner</Link>
             </span>
-            . All rights reserved.
+            . All Rights Reserved.
           </p>
         </div>
         <div className="copyrightText_DesignerName">
           <p>
-            Designed by <span> Sangeetha.</span>
+            Designed by <span> Sangeetha</span>
           </p>
         </div>
       </div>

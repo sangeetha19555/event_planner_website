@@ -7,7 +7,7 @@ import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // compontents
-import Service from "./component/allEvent/Service";
+
 import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
 import Navbar from "./component/Navbar/Navbar";
@@ -41,7 +41,6 @@ function App() {
           <Route path="/engagement" element={<EngagementPage />} />
           <Route path="/babyshower" element={<BabyShowerPage />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/service" element={<Service />} />
         </Routes>
         <Footer />
       </Wrapper>

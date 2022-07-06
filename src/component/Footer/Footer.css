@@ -35,7 +35,6 @@ footer .footer_container h3:before {
   left: 1px;
   width: 50px;
   height: 3px;
-  /* background-color: rgb(11, 156, 213); */
   background-color: rgb(20 157 175);
 }
 footer p {
@@ -118,7 +117,7 @@ footer .footer-box3 li {
 .copyrightText_DesignerName span {
   color: rgb(13, 214, 240);
   width: max-content;
-  font-weight: 800;
+  /* font-weight: 800; */
 }
 @media only screen and (max-width: 888px) {
   footer {
