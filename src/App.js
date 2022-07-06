@@ -14,6 +14,7 @@ import WeddingPage from "./component/allEvent/WeddingPage";
 import BirthdayPage from "./component/allEvent/BirthdayPage";
 import ReceptionPage from "./component/allEvent/ReceptionPage";
 import EngagementPage from "./component/allEvent/EngagementPage";
+import BabyShowerPage from "./component/allEvent/BabyShowerPage";
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
         <Route exact path="/birthday" element={<BirthdayPage />} />
         <Route exact path="/wedding" element={<WeddingPage />} />
         <Route exact path="/engagement" element={<EngagementPage />} />
+        <Route exact path="/babyshower" element={<BabyShowerPage />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/service" element={<Service />} />
       </Routes>

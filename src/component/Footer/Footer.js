@@ -72,7 +72,7 @@ const Footer = () => {
                   alt=""
                   className="our_services_icon"
                 />
-                <Link to="/">Baby shower decoration</Link>
+                <Link to="/babyshower">Baby shower decoration</Link>
               </li>
               <li>
                 <img

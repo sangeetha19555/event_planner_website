@@ -103,11 +103,13 @@ const Navbar = () => {
                       {" "}
                       Engagement Decoration
                     </Link>
-                    {/* <a className="dropdown-item" href="/engagement">
-                      Engagement Decoration
-                    </a> */}
                   </li>
-                  {/* <div className="dropdown-divider"></div> */}
+                  <li>
+                    <Link to="/babyshower" className="dropdown-item">
+                      {" "}
+                      Baby Shower
+                    </Link>
+                  </li>
                 </ul>
               </li>
               <li className="nav-item">

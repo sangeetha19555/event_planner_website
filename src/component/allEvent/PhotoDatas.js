@@ -14,6 +14,8 @@ export const birthday_data = [
   { img_url: "images/bday_img13.jpeg" },
   { img_url: "images/bday_img14.jpeg" },
   { img_url: "images/bday_img15.jpeg" },
+  { img_url: "images/bday_img16.jpeg" },
+  { img_url: "images/bday_img17.jpeg" },
 ];
 export const reception_data = [
   { img_url: "images/rec_img1.jpeg" },
@@ -61,3 +63,4 @@ export const engagement_data = [
   { img_url: "images/rec_img2.jpeg" },
   { img_url: "images/rec_img3.jpeg" },
 ];
+export const babyShower_data = [{ img_url: "images/baby_img1.jpeg" }];
