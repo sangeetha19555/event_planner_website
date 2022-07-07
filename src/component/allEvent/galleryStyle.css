@@ -60,10 +60,13 @@
   .gallery_container-imagecard img:hover {
     filter: opacity(0.9);
   }
+  .gallery_layout {
+    margin-top: 0px;
+  }
 }
 @media (max-width: 769px) {
   .gallery_section {
-    margin: 30px 20px;
+    margin: 20px 20px;
   }
   .gallery_container-imagecard img {
     width: 504px;

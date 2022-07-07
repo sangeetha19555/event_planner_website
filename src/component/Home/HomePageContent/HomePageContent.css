@@ -199,6 +199,9 @@
   .about-content_container div p {
     padding: 0 100px;
   }
+  /* .text-title_container {
+    padding: 10px 0 30px;
+  } */
 }
 @media (max-width: 769px) {
   .about-content_section {

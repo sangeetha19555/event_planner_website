@@ -32,10 +32,9 @@ const BabyShowerPage = () => {
               className="gallery_container-imagecard"
               key={id}
               onClick={() => getImage(el.img_url)}
-              data-aos="zoom-in"
-              data-aos-offset="0"
-              data-aos-duration="800"
-              data-aos-easing="ease-in-sine"
+              data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-easing="ease-in-back"
             >
               <img src={el.img_url} alt="babyShower_image" />
             </div>

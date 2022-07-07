@@ -32,9 +32,9 @@ const WeddingPage = () => {
               className="gallery_container-imagecard"
               key={id}
               onClick={() => getImage(el.img_url)}
-              data-aos="zoom-in"
-              data-aos-offset="0"
-              data-aos-easing="ease-in-sine"
+              data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-easing="ease-in-back"
             >
               <img src={el.img_url} alt="wedding_image" />
             </div>
