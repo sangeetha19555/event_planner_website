@@ -17,6 +17,7 @@ const BabyShowerPage = () => {
         data-aos="zoom-in"
         data-aos-offset="0"
         data-aos-easing="ease-in-sine"
+        data-aos-duration="1000"
       >
         <h3 className="text_title">BabyShower Decoration</h3>
       </div>
@@ -33,6 +34,7 @@ const BabyShowerPage = () => {
               onClick={() => getImage(el.img_url)}
               data-aos="zoom-in"
               data-aos-offset="0"
+              data-aos-duration="800"
               data-aos-easing="ease-in-sine"
             >
               <img src={el.img_url} alt="babyShower_image" />
