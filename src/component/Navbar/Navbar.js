@@ -47,7 +47,14 @@ const Navbar = () => {
           >
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
-                <Link to="/" className="nav-link" aria-current="page">
+                <Link
+                  to="/"
+                  className="nav-link"
+                  aria-current="page"
+                  data-toggle="collapse"
+                  data-target="#navbarTogglerDemo03"
+                  activeClassName="active"
+                >
                   {" "}
                   Home
                 </Link>
@@ -69,31 +76,66 @@ const Navbar = () => {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <Link to="/reception" className="dropdown-item">
+                    <Link
+                      to="/reception"
+                      className="dropdown-item"
+                      aria-current="page"
+                      data-toggle="collapse"
+                      data-target="#navbarTogglerDemo03"
+                      activeClassName="active"
+                    >
                       {" "}
                       Reception Decoration
                     </Link>
                   </li>
                   <li>
-                    <Link to="/birthday" className="dropdown-item">
+                    <Link
+                      to="/birthday"
+                      className="dropdown-item"
+                      aria-current="page"
+                      data-toggle="collapse"
+                      data-target="#navbarTogglerDemo03"
+                      activeClassName="active"
+                    >
                       {" "}
                       Birthday Decoration
                     </Link>
                   </li>
                   <li>
-                    <Link to="/wedding" className="dropdown-item">
+                    <Link
+                      to="/wedding"
+                      className="dropdown-item"
+                      aria-current="page"
+                      data-toggle="collapse"
+                      data-target="#navbarTogglerDemo03"
+                      activeClassName="active"
+                    >
                       {" "}
                       Wedding Decoration
                     </Link>
                   </li>
                   <li>
-                    <Link to="/engagement" className="dropdown-item">
+                    <Link
+                      to="/engagement"
+                      className="dropdown-item"
+                      aria-current="page"
+                      data-toggle="collapse"
+                      data-target="#navbarTogglerDemo03"
+                      activeClassName="active"
+                    >
                       {" "}
                       Engagement Decoration
                     </Link>
                   </li>
                   <li>
-                    <Link to="/babyshower" className="dropdown-item">
+                    <Link
+                      to="/babyshower"
+                      className="dropdown-item"
+                      aria-current="page"
+                      data-toggle="collapse"
+                      data-target="#navbarTogglerDemo03"
+                      activeClassName="active"
+                    >
                       {" "}
                       Baby Shower
                     </Link>
@@ -101,7 +143,14 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link to="/contact" className="nav-link">
+                <Link
+                  to="/contact"
+                  className="nav-link"
+                  aria-current="page"
+                  data-toggle="collapse"
+                  data-target="#navbarTogglerDemo03"
+                  activeClassName="active"
+                >
                   {" "}
                   Contact
                 </Link>
